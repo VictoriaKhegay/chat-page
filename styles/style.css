@@ -146,6 +146,11 @@ body, html {
   margin-bottom: 0.7142857143vw;
   position: relative;
 }
+.navigation-panel-friends__list-item img {
+  width: 2.5vw;
+  border-radius: 0.5vw;
+  margin-right: 0.7857142857vw;
+}
 .navigation-panel-friends__list-item::before {
   content: "";
   display: block;
@@ -157,11 +162,6 @@ body, html {
   background-color: rgba(170, 174, 180, 0.431372549);
   top: 50%;
   transform: translateY(-50%);
-}
-.navigation-panel-friends__list-item img {
-  width: 2.5vw;
-  border-radius: 0.5vw;
-  margin-right: 0.7857142857vw;
 }
 
 .chat {
@@ -311,6 +311,7 @@ body, html {
   max-height: 2.3571428571vw;
   border: 0.3571428571vw;
   margin-right: 0.8678571429vw;
+  border-radius: 0.5vw;
 }
 .chat-message-info-person__data {
   margin-bottom: 0.3571428571vw;
