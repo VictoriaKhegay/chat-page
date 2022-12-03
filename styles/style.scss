@@ -167,7 +167,9 @@ body, html{
                 }
                 
                 &.active{
-                    //background-color: $c-green;
+                    &::before{
+                    background-color: $c-green;
+                    }
                 }
                 &::before{
                     content: "";
@@ -281,7 +283,7 @@ body, html{
                     height: toVw(3.5px);
                     border-radius: 50%;
                     margin-bottom: toVw(2px);
-                    margin-left: toVw(24px);
+                    margin-left: toVw(34px);
                 }
             }    
         }
